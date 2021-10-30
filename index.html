@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.CSS">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <img src="images/logo.svg" alt="">
+
+  <div class="container">
+
+    <div class="child1">
+      <p id="Bill">Bill</p>
+      <div class="input_container">
+        <input id="first_input" class="input" type="text" pattern="[0-9]+">
+        <img class="input_img" src="images/icon-dollar.svg" alt="">
+      </div>
+
+
+      <p>Select Tip %</p>
+      <table>
+        <tr>
+          <th><button id="5" class="btns"><b>05%</b></button></th>
+          <th> <button id ="10" class="btns"><b>10%</b></button></th>
+          <th><button id="15" class="btns"><b>15%</b></button> </th>
+        </tr>
+        <tr>
+          <th> <button id="25" class="btns"><b>25%</b></button></th>
+          <th> <button id="50" class="btns"><b>50%</b></button></th>
+          <th> <input id="custom1" class="custom" type="text" placeholder="Custom">
+          </th>
+        </tr>
+      </table>
+
+
+      <p>Number of People</p>
+      <div class="input_container">
+        <input id="input1" class="input" type="text">
+        <img id="people" class="input_img" src="images/icon-person.svg" alt="">
+      </div>
+
+    </div>
+
+    <div class="child2">
+
+      <table>
+        <div class="top-table">
+          <tr>
+            <th>Tip Amount
+              <br>
+              / person
+            </th>
+            <th>
+              <p id="person" class="amount">$0. 00</p>
+            </th>
+            <br>
+          </tr>
+        </div>
+
+        <div class="bottom-table">
+          <tr>
+            <th>Total
+              <br>
+              / person
+            </th>
+            <th>
+              <p id="total" class="amount">$0. 00</p>
+            </th>
+          </tr>
+        </div>
+
+      </table>
+      <button id="reset" class="resetButton"><b>RESET</b></button>
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
+<!--   
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->

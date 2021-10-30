@@ -1,0 +1,130 @@
+body{
+    background-color:  hsl(185, 41%, 84%);
+    display: grid;
+    font-family: 'Space Mono', monospace;
+    justify-content: center;  
+    align-content: center;
+    grid-template-rows: 0.5fr 1fr;
+    margin: -40;
+
+}
+
+input{
+    font-family: 'Space Mono', monospace;
+    font-size: large;
+    font-weight: bold;
+    text-align: right;
+    color: hsl(183, 100%, 15%);
+    width: 300px;
+    height: 40px;
+    border-width:0;
+    background-color:  hsl(185, 41%, 92%);
+    border-radius: 5px;  
+}
+input:hover{
+    border-color: hsl(160, 49%, 25%);
+}
+
+.resetButton{
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 100px;
+    padding: 12px 120px;
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(160, 49%, 25%);
+}
+.resetButton:hover{
+    background-color:  hsl(185, 41%, 84%); 
+}
+
+button{
+    font-size: 1rem;
+    padding: 12px 25px;
+    border: 0;
+    margin: 0 4px 4px 4px;
+    background-color:  hsl(183, 100%, 15%);  
+    color: white;
+    border-radius: 5px; 
+}
+
+button:hover{
+    background-color: hsl(172, 67%, 45%);
+}
+
+img{
+    justify-self: center;
+    align-self: center;
+}
+    
+.custom{
+    font-size: 0.97rem;
+    width: 85px;
+    height: 40px;
+}
+
+.container{
+    border-radius: 15px;
+    width: 780px;
+    height: 480px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+}
+
+.child1{
+    background-color:white;
+    margin: 25px 0 25px 25px; 
+
+}
+.child2{
+    color: white;
+    border-radius: 15px;
+    background-color:  hsl(183, 100%, 15%);  
+    margin: 25px 25px 25px 0; 
+}
+.input_container { 
+    position:relative;
+    padding:0;
+    margin:0;
+}
+.input { 
+    margin:0;
+}
+.input_img {
+    position:absolute;
+    bottom:11px;
+    left:10px;
+    width:12px;  
+}
+
+.amount{
+    color: hsl(172, 67%, 45%);
+    padding: 0 0 0 50px;
+    font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 500px) {
+    body{
+        grid-template-rows: 0.33fr 1fr;
+    }
+    .container{
+        grid-template-columns: 1fr;
+        width: 420px;
+        height: auto;
+    }
+    .child1{
+        margin: 25px 0 25px 40px; 
+    }
+    .child2{
+        width: 320px;
+        margin-left: 40px;
+    }
+
+    .resetButton{
+        margin-bottom: 20px;
+        padding: 12px 90px;
+        
+    }
+  }
+
