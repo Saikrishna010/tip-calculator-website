@@ -110,15 +110,15 @@ img{
     }
     .container{
         grid-template-columns: 1fr;
-        width: 420px;
+        width: 370px;
         height: auto;
     }
     .child1{
-        margin: 25px 0 25px 40px; 
+        margin: 25px 15px 25px 24px; 
     }
     .child2{
         width: 320px;
-        margin-left: 40px;
+        margin-left: 24px;
     }
 
     .resetButton{
