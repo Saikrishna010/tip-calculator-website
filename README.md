@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://saikrishna010.github.io/tip-calculator-website/)
+- Live Site URL: (https://saikrishna010.github.io/tip-calculator-website/)
 
 
 
