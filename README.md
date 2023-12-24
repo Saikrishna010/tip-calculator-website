@@ -10,7 +10,7 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 Users should be able to:
 
-- View the optimal layout for the app depending on their device's screen size
+- View the optimal layout for the app depending on the device's screen size
 - See hover states for all interactive elements on the page
 - Calculate the correct tip and total cost of the bill per person
 
@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://saikrishnabijja.github.io/tip-calculator-website/)
+- Live Site URL: (https://saikrishnabijja.github.io/tipCalculatorWebsite)
 
 
 
